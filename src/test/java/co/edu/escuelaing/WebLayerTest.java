@@ -13,7 +13,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 
 
-@WebMvcTest
+@WebMvcTest{HomeController.class}
 public class WebLayerTest {
 
     @Autowired
